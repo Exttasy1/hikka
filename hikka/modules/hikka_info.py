@@ -26,7 +26,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "custom_button",
-                ["🌘 Support chat", "https://t.me/hikka_talks"],
+                None,
                 lambda: self.strings("_cfg_cst_btn"),
                 validator=loader.validators.Union(
                     loader.validators.Series(fixed_len=2),
@@ -123,7 +123,7 @@ class HikkaInfoMod(loader.Module):
                         "<emoji document_id=5451646226975955576>⌛️</emoji>",
                         "<emoji document_id=5431449001532594346>⚡️</emoji>",
                         "<emoji document_id=5359785904535774578>💼</emoji>",
-                        platform,
+                        "<emoji document_id=5445388468215619925>🕸</emoji><b> ExttasyHost</b>",
                     ),
                 )
             )
