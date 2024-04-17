@@ -123,7 +123,7 @@ class HikkaInfoMod(loader.Module):
                         "<emoji document_id=5451646226975955576>⌛️</emoji>",
                         "<emoji document_id=5431449001532594346>⚡️</emoji>",
                         "<emoji document_id=5359785904535774578>💼</emoji>",
-                        platform,
+                        "<emoji document_id=5445388468215619925>🕸</emoji><b> ExttasyHost</b>",
                     ),
                 )
             )
