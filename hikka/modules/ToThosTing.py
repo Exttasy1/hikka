@@ -30,7 +30,7 @@ class ToThosT(loader.Module):
         await self.request_join(
             "@tothosting",
             (
-                "Это чат твоего хостинга"
-                " Пожалуйста зайди в него"
+                "\nЭто чат твоего хостинга"
+                "\n Пожалуйста зайди в него"
             ),
         )
